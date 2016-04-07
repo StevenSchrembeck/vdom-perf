@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="http://mui.aws.manheim.com/0.20.0/man-customer/css/mui.min.css">
+        <style>
+            .mui-panel {
+                display: inline-block;
+                margin: 0.5em;
+                text-align: center;
+                width: 150px;
+            }
+            .mui-panel:nth-child(3n) {
+                padding: 4rem 0;
+            }
+            .mui-panel:nth-child(4n) {
+                background-color: #5522FF;
+                color: white;
+            }
+            .share {
+                display: block;
+            }
+            #results {
+                position: fixed;
+                right: 0;
+                top: 0;
+            }
+            #results > li {
+                background: #448844;
+                border-bottom: 2px solid white;
+                box-sizing: border-box;
+                color: white;
+                display: block;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 1em;
+                text-align: center;
+                vertical-align: middle;
+                /*width: 200px;*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="target"></div>
+        <ul id="results" class="list--no-bullets"></ul>
+
+        <script src="build/vDomPerf.js"></script>
+    </body>
+</html>
