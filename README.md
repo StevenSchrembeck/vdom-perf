@@ -6,6 +6,7 @@ setup:
 in a terminal run
 
 npm i
+
 webpack
 
 then open index.html to run tests.
